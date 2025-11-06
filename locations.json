@@ -1,0 +1,294 @@
+[
+    {
+        "id": 1,
+        "name": "CheSa’s Bistro and Bar",
+        "address": "3235 W. Addison St",
+        "lat": 41.9461602,
+        "lng": -87.7095937,
+        "hours": {
+           
+            "tuesday": "17:00-19:00"
+            
+        },
+        "type": "Restaurant"
+    },
+    {
+        "id": 2,
+        "name": "Kale My Name", 
+        "address": "3300 W. Montrose Ave.",
+        "lat": 41.9613363,
+        "lng": -87.710877,
+        "hours": {
+            "monday": "15:00-17:00",
+            "tuesday": "15:00-17:00",
+            "wednesday": "15:00-17:00",
+            "thursday": "15:00-17:00", 
+            "friday": "15:00-17:00",
+            "saturday": "15:00-17:00",
+            "sunday": "15:00-17:00"
+        },
+        "type": "Restaurant"
+    }, 
+    {
+        "id": 3,
+        "name": "October Cafe", 
+        "address": "6046 N. Avondale Ave.",
+        "lat": 41.9910162,
+        "lng": -87.7990686,
+        "hours": {
+            "monday": "15:00-17:00",
+            "tuesday": "15:00-17:00",
+            "wednesday": "15:00-17:00",
+            "thursday": "15:00-17:00", 
+            "friday": "15:00-17:00",
+            "saturday": "15:00-17:00",
+            "sunday": "15:00-17:00"
+        },
+        "type": "Restaurant"
+    }, 
+    {
+        "id": 4,
+        "name": "Paulie Gee’s", 
+        "address": "Logan Square, 2651 N. Milwaukee Ave",
+        "lat": 41.9300787,
+        "lng": -87.7086146,
+        "hours": {
+            "monday": "6:00-18:00",
+            "tuesday": "6:00-18:00",
+            "wednesday": "6:00-18:00",
+            "thursday": "6:00-18:00", 
+            "friday": "6:00-18:00",
+            "saturday": "6:00-18:00",
+            "sunday": "6:00-18:00"
+        },
+        "type": "Restaurant (For children ONLY)"
+    },
+    {
+        "id": 5,
+        "name": "Penelope’s Vegan Taqueria", 
+        "address": "5204 N. Clark St., 230 W. Chicago Ave",
+        "lat": 41.895403,
+        "lng": -87.6344445,
+        "hours": {
+            "monday": "15:00-17:00",
+            "tuesday": "15:00-17:00",
+            "wednesday": "15:00-17:00",
+            "thursday": "15:00-17:00", 
+            "friday": "15:00-17:00",
+            "saturday": "15:00-17:00",
+            "sunday": "15:00-17:00"
+        },
+        "type": "Restaurant (For children and pregnant women ONLY)"
+    },
+    {
+        "id": 6,
+        "name": "Penelope’s Vegan Taqueria", 
+        "address": "1165 W. 18th St.",
+        "lat": 41.8577773,
+        "lng": -87.655702,
+        "hours": {
+            "monday": "15:00-17:00",
+            "tuesday": "15:00-17:00",
+            "wednesday": "15:00-17:00",
+            "thursday": "15:00-17:00", 
+            "friday": "15:00-17:00",
+            "saturday": "15:00-17:00",
+            "sunday": "15:00-17:00"
+        },
+        "type": "Restaurant (For children and pregnant women ONLY)"
+    },
+    {
+        "id": 7,
+        "name": "The Stopalong", 
+        "address": "2210 N. California Ave.",
+        "lat": 41.9221003,
+        "lng": -87.6976884,
+        "hours": {
+            "tuesday": "16:00-22:00",
+            "wednesday": "16:00-22:00",
+            "thursday": "16:00-22:00", 
+            "friday": "11:00-23:00",
+            "saturday": "11:00-23:00",
+            "sunday": "11:00-21:00"
+        },
+        "type": "Restaurant"
+    },
+    {
+        "id": 8,
+        "name": "The Stopalong", 
+        "address": "1812 N. Milwaukee Ave",
+        "lat": 41.9142703,
+        "lng": -87.6838655,
+        "hours": {
+            "tuesday": "16:00-22:00",
+            "wednesday": "16:00-22:00",
+            "thursday": "16:00-22:00", 
+            "friday": "11:00-23:00",
+            "saturday": "11:00-23:00",
+            "sunday": "11:00-21:00"
+        },
+        "type": "Restaurant"
+    },
+    {
+        "id": 9,
+        "name": "Soul Food Lounge", 
+        "address": "3804 W. 16th St.",
+        "lat": 41.8590343,
+        "lng": -87.720475,
+        "hours": {
+            "tuesday": "12:00-15:00"
+            
+        },
+        "type": "Restaurant"
+    },
+    {
+        "id": 10,
+        "name": "Wooden Paddle", 
+        "address": "212 Stephen Street",
+        "lat": 41.6740265,
+        "lng": -87.9985333,
+        "hours": {
+            "monday": "11:30-15:00",
+            "tuesday": "11:30-15:00",
+            "wednesday": "11:30-15:00",
+            "thursday": "11:30-15:00",
+            "friday": "11:30-15:00",
+            "saturday": "11:30-15:00",
+            "sunday": "11:30-15:00"
+        },
+        "type": "Restaurant"
+    },
+    {
+        "id": 11,
+        "name": "Wooden Paddle", 
+        "address": "23 Calendar Avenue",
+        "lat": 41.8150439,
+        "lng": -87.8708546,
+        "hours": {
+            "monday": "11:30-15:00",
+            "tuesday": "11:30-15:00",
+            "wednesday": "11:30-15:00",
+            "thursday": "11:30-15:00",
+            "friday": "11:30-15:00",
+            "saturday": "11:30-15:00",
+            "sunday": "11:30-15:00"
+        },
+        "type": "Restaurant"
+    },
+    {
+        "id": 12,
+        "name": "Canton Regio", 
+        "address": "1510 W. 18th St.",
+        "lat": 41.8580869,
+        "lng":-87.6642853,
+        "hours": {
+            "tuesday": "16:00-18:00"
+           
+        },
+        "type": "Restaurant"
+    },
+    {
+        "id": 13,
+        "name": "Edgebrook Coffee Shop", 
+        "address": "6322 N. Central Ave.",
+        "lat": 41.9969519,
+        "lng":-87.7641185,
+        "hours": {
+            "monday": "7:30-13:30",
+            "thursday": "7:30-13:30",
+            "friday": "7:30-13:30",
+            "saturday": "7:30-13:30",
+            "sunday": "7:30-15:00"
+        },
+        "type": "Restaurant"
+    },
+    {
+        "id": 14,
+        "name": "Harold’s Chicken No. 34", 
+        "address": "503 E 47th St.",
+        "lat": 41.8092321,
+        "lng":-87.6136389,
+        "hours": {
+            "sunday": "14:00-16:00"
+        },
+        "type": "Restaurant"
+    },
+    {
+        "id": 15,
+        "name": "R Public House", 
+        "address": "1508 W. Jarvis Ave.",
+        "lat": 42.0163055,
+        "lng":-87.6685957,
+        "hours": {
+            "monday": "15:00-23:00",
+            "tuesday": "15:00-23:00",
+            "wednesday": "15:00-23:00",
+            "thursday": "15:00-23:00",
+            "friday": "15:30-24:00",
+            "saturday": "10:00-24:00",
+            "sunday": "10:00-23:00"
+        },
+        "type": "Restaurant"
+    },
+    {
+        "id": 16,
+        "name": "R&A Sourdough", 
+        "address": "1938 W. Lawrence Ave.",
+        "lat": 41.8951954,
+        "lng":-87.6513852,
+        "hours": {
+            "tuesday": "7:00-14:00",
+            "wednesday": "7:00-14:00",
+            "thursday": "7:00-14:00",
+            "friday": "7:00-14:00",
+            "saturday": "8:00-13:00",
+            "sunday": "8:00-13:00"
+        },
+        "type": "Restaurant"
+    },
+    {
+        "id": 17,
+        "name": "R&A Sourdough", 
+        "address": "942 W. Huron St.",
+        "lat": 41.9689459,
+        "lng":-87.6778693,
+        "hours": {
+            "tuesday": "7:00-14:00",
+            "wednesday": "7:00-14:00",
+            "thursday": "7:00-14:00",
+            "friday": "7:00-14:00",
+            "saturday": "8:00-13:00",
+            "sunday": "8:00-13:00"
+        },
+        "type": "Restaurant"
+    },
+    {
+        "id": 18,
+        "name": "Spoken Cafe", 
+        "address": "1812 W. Montrose Ave",
+        "lat": 41.9616989,
+        "lng":-87.675041,
+        "hours": {
+            "monday": "18:00-20:00"
+        },
+        "type": "Restaurant"
+    },
+    {
+        "id": 19,
+        "name": "Bobby's Eastside", 
+        "address": "7321 Madison St",
+        "lat": 41.8797122,
+        "lng":-87.8081378,
+        "hours": {
+            "monday": "15:00-21:30",
+            "tuesday": "15:00-21:30",
+            "wednesday": "15:00-21:30",
+            "thursday": "15:00-24:00",
+            "friday": "15:00-24:00",
+            "saturday": "11:00-24:00",
+            "sunday": "11:00-23:00"
+        },
+        "type": "Restaurant"
+    }
+
+]
