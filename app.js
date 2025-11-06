@@ -167,7 +167,7 @@ async function handleSearch() {
     console.log("Search button clicked");
     
     const addressInput = document.getElementById('address-input');
-    const userAddress = addressInput.value.trim();
+    const userAddress = addressInput.value.trim(); 
     
     if (!userAddress) {
         alert('Please enter an address');

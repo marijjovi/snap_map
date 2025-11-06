@@ -11,7 +11,7 @@ exports.handler = async function(event, context) {
   
   try {
     const response = await fetch(
-      `https://nominatim.openstreetmap.org/search?format=json&q=${encodeURIComponent(address)}&limit=5&addressdetails=1`,
+      `https://nominatim.openstreetmap.org/search?format=json&q=${encodeURIComponent(address)}&limit=5&addressdetails=1&featureType=Chicago&countrycodes=US`,
       {
         headers: {
           'User-Agent': 'FreeMealsChicago (https://freemealschicago.netlify.app/)',
