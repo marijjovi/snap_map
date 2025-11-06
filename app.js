@@ -115,19 +115,27 @@ function updateResultsList(locations) {
 
 function hoursofDistribution(location) {
     
-   const hoursCont = location.hours  
-   let hoursHTML = '';
-   for (const [day, hours] of Object.entries(hoursCont)) {
-        hoursHTML += `
-            <div class="hours-item">
-                <span class="day"> <p style="color: firebrick;"> ${capitalizeFirstLetter(day)}</p></span>
-                <span class="time">${amandpmTime(hours)}</span>
-            </div>
-        `;
-    }  
+    if (location.type == 'Community Fridge'){
+        let fridgeHTML =
+        `<div class="hours-item">
+            Always Open!
+        </div>`;
+        return fridgeHTML;
+    } 
+    else {
+        const hoursCont = location.hours  
+        let hoursHTML = '';
+        for (const [day, hours] of Object.entries(hoursCont)) {
+                hoursHTML += `
+                    <div class="hours-item">
+                        <span class="day"> <p style="color: firebrick;"> ${capitalizeFirstLetter(day)}</p></span>
+                        <span class="time">${amandpmTime(hours)}</span>
+                    </div>
+                `;
+            }  
 
-    return hoursHTML; 
-   
+        return hoursHTML; 
+    }
 }
 function capitalizeFirstLetter(string) {
     return string.charAt(0).toUpperCase() + string.slice(1);
@@ -141,7 +149,7 @@ function amandpmTime(hours){
 function formatTime(string) {
     const [hours, minutes] = string.split(':');
     const hour = parseInt(hours);
-    const ampm = hour >= 12 ? 'PM' : 'AM';
+    const ampm = (hour >= 12 && hour !== 24) ? 'PM' : 'AM';
     const displayHour = hour % 12 || 12;
     return `${displayHour}:${minutes} ${ampm}`;
 }

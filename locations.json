@@ -289,6 +289,331 @@
             "sunday": "11:00-23:00"
         },
         "type": "Restaurant"
+    }, 
+    {
+        "id": 20,
+        "name": "The Love Shack", 
+        "address": "2751 W 21st Stt",
+        "lat": 41.853698,
+        "lng": -87.695121,
+        "hours": {
+            "monday": "1:00-24:00",
+            "tuesday": "1:00-24:00",
+            "wednesday": "1:00-24:00",
+            "thursday": "1:00-24:00",
+            "friday": "1:00-24:00",
+            "saturday": "1:00-24:00",
+            "sunday": "1:00-24:00"
+        },
+        "type": "Community Fridge"
+    }, 
+    {
+        "id": 21,
+        "name": "Take It Off Your Plate", 
+        "address": "332 E 51st St",
+        "lat": 41.802163,
+        "lng": -87.617856,
+        "hours": {
+            "monday": "1:00-24:00",
+            "tuesday": "1:00-24:00",
+            "wednesday": "1:00-24:00",
+            "thursday": "1:00-24:00",
+            "friday": "1:00-24:00",
+            "saturday": "1:00-24:00",
+            "sunday": "1:00-24:00"
+        },
+        "type": "Community Fridge"
+    }, 
+    {
+        "id": 22,
+        "name": "Getting Grown Collective", 
+        "address": "6344 S Morgan St",
+        "lat": 41.778641,
+        "lng": -87.649765,
+        "hours": {
+            "monday": "1:00-24:00",
+            "tuesday": "1:00-24:00",
+            "wednesday": "1:00-24:00",
+            "thursday": "1:00-24:00",
+            "friday": "1:00-24:00",
+            "saturday": "1:00-24:00",
+            "sunday": "1:00-24:00"
+        },
+        "type": "Community Fridge"
+    },
+    {
+        "id": 23,
+        "name": "Elpeeda", 
+        "address": "7036 N Clark St",
+        "lat": 42.009712,
+        "lng": -87.673758,
+        "hours": {
+            "monday": "1:00-24:00",
+            "tuesday": "1:00-24:00",
+            "wednesday": "1:00-24:00",
+            "thursday": "1:00-24:00",
+            "friday": "1:00-24:00",
+            "saturday": "1:00-24:00",
+            "sunday": "1:00-24:00"
+        },
+        "type": "Community Fridge"
+    },
+    {
+        "id": 24,
+        "name": "Augustana Lutheran Church", 
+        "address": "5500 S Woodlawn Ave",
+        "lat": 41.7948866,
+        "lng": -87.5974346,
+        "hours": {
+            "monday": "1:00-24:00",
+            "tuesday": "1:00-24:00",
+            "wednesday": "1:00-24:00",
+            "thursday": "1:00-24:00",
+            "friday": "1:00-24:00",
+            "saturday": "1:00-24:00",
+            "sunday": "1:00-24:00"
+        },
+        "type": "Community Fridge"
+    },
+    {
+        "id": 25,
+        "name": "The Austin Fridge", 
+        "address": "4945 W Division St",
+        "lat": 41.9021184,
+        "lng": -87.7502511,
+        "hours": {
+            "monday": "1:00-24:00",
+            "tuesday": "1:00-24:00",
+            "wednesday": "1:00-24:00",
+            "thursday": "1:00-24:00",
+            "friday": "1:00-24:00",
+            "saturday": "1:00-24:00",
+            "sunday": "1:00-24:00"
+        },
+        "type": "Community Fridge"
+    },
+    {
+        "id": 26,
+        "name": "Oasis Community Fridge", 
+        "address": "1520 N Kostner Ave",
+        "lat": 41.9083825,
+        "lng": -87.736733,
+        "hours": {
+            "monday": "1:00-24:00",
+            "tuesday": "1:00-24:00",
+            "wednesday": "1:00-24:00",
+            "thursday": "1:00-24:00",
+            "friday": "1:00-24:00",
+            "saturday": "1:00-24:00",
+            "sunday": "1:00-24:00"
+        },
+        "type": "Community Fridge"
+    },
+    {
+        "id": 27,
+        "name": "The Love Fridge at the Plant", 
+        "address": "1400 W 46th St, Back-of-the-Yards",
+        "lat": 41.8107367,
+        "lng": -87.660697,
+        "hours": {
+            "monday": "1:00-24:00",
+            "tuesday": "1:00-24:00",
+            "wednesday": "1:00-24:00",
+            "thursday": "1:00-24:00",
+            "friday": "1:00-24:00",
+            "saturday": "1:00-24:00",
+            "sunday": "1:00-24:00"
+        },
+        "type": "Community Fridge"
+    },
+    {
+        "id": 28,
+        "name": "Star Farm", 
+        "address": "5155 S Wolcott Ave, Back-of-the-Yards",
+        "lat": 41.8002307,
+        "lng": -87.6718295,
+        "hours": {
+            "monday": "1:00-24:00",
+            "tuesday": "1:00-24:00",
+            "wednesday": "1:00-24:00",
+            "thursday": "1:00-24:00",
+            "friday": "1:00-24:00",
+            "saturday": "1:00-24:00",
+            "sunday": "1:00-24:00"
+        },
+        "type": "Community Fridge"
+    },
+    {
+        "id": 29,
+        "name": "Rodfei Zedek Love Fridge", 
+        "address": "5200 S Hyde Park Blvd",
+        "lat": 41.8008838,
+        "lng": -87.5850479,
+        "hours": {
+            "monday": "1:00-24:00",
+            "tuesday": "1:00-24:00",
+            "wednesday": "1:00-24:00",
+            "thursday": "1:00-24:00",
+            "friday": "1:00-24:00",
+            "saturday": "1:00-24:00",
+            "sunday": "1:00-24:00"
+        },
+        "type": "Community Fridge"
+    },
+    {
+        "id": 30,
+        "name": "The Love Fridge at the Breathing Room", 
+        "address": "1434 W 51st St, Back-of-the-Yards",
+        "lat": 41.8016117,
+        "lng": -87.661382,
+        "hours": {
+            "monday": "1:00-24:00",
+            "tuesday": "1:00-24:00",
+            "wednesday": "1:00-24:00",
+            "thursday": "1:00-24:00",
+            "friday": "1:00-24:00",
+            "saturday": "1:00-24:00",
+            "sunday": "1:00-24:00"
+        },
+        "type": "Community Fridge"
+    },
+    {
+        "id": 31,
+        "name": "Port Ministries", 
+        "address": "1434 W 51st St, Back-of-the-Yards",
+        "lat": 41.8021856,
+        "lng": -87.6681218,
+        "hours": {
+            "monday": "1:00-24:00",
+            "tuesday": "1:00-24:00",
+            "wednesday": "1:00-24:00",
+            "thursday": "1:00-24:00",
+            "friday": "1:00-24:00",
+            "saturday": "1:00-24:00",
+            "sunday": "1:00-24:00"
+        },
+        "type": "Community Fridge"
+    },
+    {
+        "id": 32,
+        "name": "Stone Temple", 
+        "address": "3622 W Douglas Blvd",
+        "lat": 41.8631702,
+        "lng": -87.7162892,
+        "hours": {
+            "monday": "1:00-24:00",
+            "tuesday": "1:00-24:00",
+            "wednesday": "1:00-24:00",
+            "thursday": "1:00-24:00",
+            "friday": "1:00-24:00",
+            "saturday": "1:00-24:00",
+            "sunday": "1:00-24:00"
+        },
+        "type": "Community Fridge"
+    },
+    {
+        "id": 33,
+        "name": "Patchwork Farms", 
+        "address": "2825 W Chicago Ave",
+        "lat": 41.8954552,
+        "lng": -87.697786,
+        "hours": {
+            "monday": "1:00-24:00",
+            "tuesday": "1:00-24:00",
+            "wednesday": "1:00-24:00",
+            "thursday": "1:00-24:00",
+            "friday": "1:00-24:00",
+            "saturday": "1:00-24:00",
+            "sunday": "1:00-24:00"
+        },
+        "type": "Community Fridge"
+    },
+    {
+        "id": 34,
+        "name": "South Shore Fridge", 
+        "address": "2825 W Chicago Ave",
+        "lat": 41.7606434,
+        "lng": -87.5640096,
+        "hours": {
+            "monday": "1:00-24:00",
+            "tuesday": "1:00-24:00",
+            "wednesday": "1:00-24:00",
+            "thursday": "1:00-24:00",
+            "friday": "1:00-24:00",
+            "saturday": "1:00-24:00",
+            "sunday": "1:00-24:00"
+        },
+        "type": "Community Fridge"
+    },
+    {
+        "id": 35,
+        "name": "A House in Austin Fridge", 
+        "address": "533 N Pine Ave",
+        "lat": 41.8898369,
+        "lng": -87.7630119,
+        "hours": {
+            "monday": "1:00-24:00",
+            "tuesday": "1:00-24:00",
+            "wednesday": "1:00-24:00",
+            "thursday": "1:00-24:00",
+            "friday": "1:00-24:00",
+            "saturday": "1:00-24:00",
+            "sunday": "1:00-24:00"
+        },
+        "type": "Community Fridge"
+    },
+    {
+        "id": 36,
+        "name": "Soul Fridge", 
+        "address": "1601 Payne St",
+        "lat": 42.0571651,
+        "lng": -87.6945148,
+        "hours": {
+            "monday": "1:00-24:00",
+            "tuesday": "1:00-24:00",
+            "wednesday": "1:00-24:00",
+            "thursday": "1:00-24:00",
+            "friday": "1:00-24:00",
+            "saturday": "1:00-24:00",
+            "sunday": "1:00-24:00"
+        },
+        "type": "Community Fridge"
+    },
+    {
+        "id": 37,
+        "name": "CNE Fridge", 
+        "address": "1335 Dodge Ave",
+        "lat": 42.0424668,
+        "lng": -87.6988764,
+        "hours": {
+            "monday": "1:00-24:00",
+            "tuesday": "1:00-24:00",
+            "wednesday": "1:00-24:00",
+            "thursday": "1:00-24:00",
+            "friday": "1:00-24:00",
+            "saturday": "1:00-24:00",
+            "sunday": "1:00-24:00"
+        },
+        "type": "Community Fridge"
+    },
+    {
+        "id": 38,
+        "name": "Sunrise Fridge", 
+        "address": "620 Madison St",
+        "lat": 42.0314926,
+        "lng": -87.6800077,
+        "hours": {
+            "monday": "1:00-24:00",
+            "tuesday": "1:00-24:00",
+            "wednesday": "1:00-24:00",
+            "thursday": "1:00-24:00",
+            "friday": "1:00-24:00",
+            "saturday": "1:00-24:00",
+            "sunday": "1:00-24:00"
+        },
+        "type": "Community Fridge"
     }
+
+
 
 ]
