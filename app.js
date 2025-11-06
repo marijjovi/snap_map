@@ -199,7 +199,7 @@ async function handleSearch() {
         console.log("User coordinates:", userCoords);
         
         // Find nearest locations
-        const allLocations = loadLocations();
+        const allLocations =  await loadLocations();
         const nearestLocations = findNearestLocations(userCoords, allLocations, 5);
         
         // Update map and results
