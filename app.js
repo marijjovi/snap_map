@@ -282,6 +282,24 @@ function startStatusUpdates() {
     });
 }
 
+async function fetchGeocode(address) {
+    try {
+        // Call the Netlify function
+        const response = await fetch(`/.netlify/functions/geocode?address=${encodeURIComponent(address)}`);
+        
+        if (!response.ok) {
+            throw new Error('Geocoding failed');
+        }
+        
+        const data = await response.json();
+        return data;
+        
+    } catch (error) {
+        console.error('Geocoding error:', error);
+        throw error;
+    }
+}
+
 function focusOnLocation(lat, lng, name) {
     console.log("Focusing on location:", name);
     

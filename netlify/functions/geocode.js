@@ -1,37 +1,27 @@
 exports.handler = async function(event, context) {
-    // Only allow GET requests
-    if (event.httpMethod !== 'GET') {
-      return { statusCode: 405, body: 'Method Not Allowed' };
-    }
+  // Your existing serverless function code
+  const { address } = event.queryStringParameters;
   
-    const { address } = event.queryStringParameters;
-    
-    if (!address) {
-      return { statusCode: 400, body: 'Address parameter is required' };
-    }
-  
-    try {
-      // Call OpenStreetMap Nominatim (no API key needed)
+  try {
       const response = await fetch(
-        `https://nominatim.openstreetmap.org/search?format=json&q=${encodeURIComponent(address)}&limit=5`
+          `https://nominatim.openstreetmap.org/search?format=json&q=${encodeURIComponent(address)}&limit=5`
       );
       
       const data = await response.json();
       
-      // Return clean coordinates
       return {
-        statusCode: 200,
-        headers: {
-          'Content-Type': 'application/json',
-          'Access-Control-Allow-Origin': '*' // Important!
-        },
-        body: JSON.stringify(data)
+          statusCode: 200,
+          headers: {
+              'Content-Type': 'application/json',
+              'Access-Control-Allow-Origin': '*'
+          },
+          body: JSON.stringify(data)
       };
       
-    } catch (error) {
+  } catch (error) {
       return {
-        statusCode: 500,
-        body: JSON.stringify({ error: 'Geocoding service unavailable' })
+          statusCode: 500,
+          body: JSON.stringify({ error: 'Geocoding service unavailable' })
       };
-    }
-  };
+  }
+};
