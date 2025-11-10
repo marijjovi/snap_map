@@ -55,7 +55,7 @@ function plotLocations(locations) {
         const isOpen = isLocationOpen(location);
         const statusColor = isOpen ? 'green' : 'red';
         const statusText = isOpen ? 'OPEN' : 'CLOSED';
-        const markerColor = isOpen ? '#27ae60' : '#e74c3c';
+        const markerColor = isOpen ? '#6fdc8c' : '#a2191f';
         const customIcon = L.divIcon({
             className: 'custom-marker',
             html:`<div style="background-color: ${markerColor}; width: 16px; height: 16px;
